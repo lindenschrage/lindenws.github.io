@@ -25,24 +25,21 @@
 			text-decoration: underline;
 		}
 	
-		/* LIST STYLES*/
-		li {
+
+		.grid{
+			display:grid;
+			grid-template-columns: 1fr 1fr 1fr;	
+			grid-gap: 20px 50px;
 			color: black;
 			font-weight: normal;
 			text-align: center;
-			padding: 40px 0px 40px;
-			background-color: #B9D6F3;
-			width: 300px;
+			grid-gap: 20px 50px;
 			font-size: 20px;
-			margin-bottom:20px;
-
-			border-radius: 30px;
-
+			margin-top: 20px;
 		}
-
-		ul{
-			list-style: none;
-			margin: 10px;
+		.grid > * {
+  			border-radius: 30px;
+  			padding: 40px 0px 40px;
 
 		}
 
